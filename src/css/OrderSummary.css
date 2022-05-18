@@ -1,0 +1,30 @@
+.order_summary_container h2 {
+  color: #264d32;
+  font-size: 26px;
+  text-align: center;
+}
+
+.summary_title {
+  margin: 30px 0 15px 0;
+}
+
+.order_number {
+  text-align: center;
+}
+
+.order_summary_container .thanks {
+  margin: 40px 0 100px 0;
+}
+
+.order_summary_container .about_button {
+  background-color: #264d32 !important;
+  width: 200px !important;
+  height: 40px !important;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  margin-left: -100px;
+  z-index: 1;
+}

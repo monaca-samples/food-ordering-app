@@ -1,0 +1,12 @@
+{
+  "cordova.plugins.diagnostic": {
+    "source": {
+      "type": "registry",
+      "id": "cordova.plugins.diagnostic@^6.1.1"
+    },
+    "is_top_level": true,
+    "variables": {
+      "ANDROIDX_VERSION": "1.0.0"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.navbar_back_container i {
+  margin: 0 3px 0 10px;
+  color: #591303;
+}
+
+.navbar_back_container span {
+  color: #591303;
+}
+
+.button_settings {
+  width: fit-content;
+  float: right;
+  position: relative;
+  font-size: xx-large;
+  top: 0;
+}

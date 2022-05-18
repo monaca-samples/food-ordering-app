@@ -1,0 +1,39 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 100px;
+  color: #000000 !important;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.about span::after {
+  content: '\a\a';
+  white-space: pre;
+}
+
+.second::before,
+.bottom::before {
+  content: '\a\a';
+  white-space: pre;
+}
+
+.bottom {
+  color: #808080;
+}
+
+.about_button {
+  background-color: #264d32 !important;
+  width: 200px !important;
+  height: 40px !important;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  margin-left: -100px;
+  z-index: 1;
+}

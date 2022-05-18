@@ -1,0 +1,39 @@
+.buttons_container {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  margin-left: -170px;
+  z-index: 1;
+}
+
+.buttons_container a {
+  width: 150px !important;
+  height: 45px !important;
+  margin: 15px 10px 0 !important;
+}
+
+#primaryButton {
+  color: #ffffff !important;
+  background-color: #264d32 !important;
+}
+
+#secondaryButton {
+  background-color: white !important;
+  color: #264d32 !important;
+  border-color: #264d32 !important ;
+}
+
+#disabledPrimaryButton {
+  color: #ffffff !important;
+  background-color: #264d32 !important;
+  opacity: 0.5;
+}
+
+#disabledSecondaryButton {
+  background-color: white !important;
+  color: #264d32 !important;
+  border-color: #264d32 !important ;
+  opacity: 0.5;
+}

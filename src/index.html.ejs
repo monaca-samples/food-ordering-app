@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- This file is the template for "www/index.html". Modify it to fit your needs -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'"
+    />
+
+    <meta name="theme-color" content="#007aff" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <title>Pab-Dom App</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="static/icons/favic/apple-touch-icon.png"
+    />
+    <link rel="icon" href="static/icons/favic/favicon.ico" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- The following EJS lines include the necessary CSS and JS
+  from Monaca (cordova.js/ loader.js) in production mode -->
+    <% for (var dep in htmlWebpackPlugin.options.externalJS) { %>
+    <script
+      type="text/javascript"
+      src="<%= htmlWebpackPlugin.options.externalJS[dep] %>"
+    ></script>
+    <% } %> <% for (var dep in htmlWebpackPlugin.options.externalCSS) { %>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="<%= htmlWebpackPlugin.options.externalCSS[dep] %>"
+    />
+    <% } %>
+    <!-- built styles file will be auto injected -->
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built script files will be auto injected -->
+  </body>
+</html>

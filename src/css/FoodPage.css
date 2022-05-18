@@ -1,0 +1,28 @@
+.food_container h2 {
+  color: #264d32;
+  font-size: 26px;
+  text-align: center;
+}
+
+.food_title {
+  margin-top: 30px;
+}
+
+.food_container .price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.total_text {
+  margin: auto;
+  width: 150px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #264d32;
+}
+
+.total_amount {
+  margin: 5px 0 10px 0;
+}

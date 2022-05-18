@@ -1,0 +1,18 @@
+.dateTime_container h2 {
+  color: #264d32;
+  font-size: 26px;
+  text-align: center;
+}
+
+.dateTime_container .user_info_list {
+  margin-bottom: 120px;
+}
+
+.dateTime_title {
+  margin: 30px 0 15px 0;
+}
+
+.input_datetime {
+  font-size: 300% !important;
+  text-align: center;
+}
